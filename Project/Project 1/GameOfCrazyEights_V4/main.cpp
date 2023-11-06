@@ -537,9 +537,9 @@ bool checkForFile(char nameInput[], int index) {
     nameFile = temp.c_str(); //Convert to c-string
     
     if(strcmp(nameInput, nameFile) == 0) {
-        //If name matched
         found = true;
     } //End of independent if
+    file.close();
     
     return found; //Return outcome
 }
