@@ -414,7 +414,7 @@ void startGame(Player *players, string *theCards, const int playerSize, int &fil
                                     } //End of independent if
                                 } //End of nested for loop
 
-                                break;
+                                i = playerSize;
                             } //End of independent if
                         } else {
                             //Invalid choice from card chosen
